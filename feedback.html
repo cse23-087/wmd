@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" type="image/x-icon" href="Images/WB_Logo/2.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Warner Bros</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+
+            <div class="logo-container">
+                <h1 class="logo"><a href="index.html"><img src="Images/WB_Logo/2.png" alt="WB_Logo/2"style="height: 50px; width: 50px;"></h1>
+            </div>
+
+            <div class="search-container">
+                <form action="" class="search-bar">
+                <input type="text" placeholder="Search" name="q">
+                <button type="submit"><img src="Images/search_button.jpeg" alt="Search_button"style="height: 10px; width: 10px;"></button>
+                </form>
+                <P>Home of Movies</P>
+            </div>
+        </div>
+
+        <div class="menu-container">
+          <ul class="menu-list">
+            <li class="menu-list-item active"><a href="categories.html">Categories</a></li>
+                <li class="menu-list-item"><a href="shows.html">Tv Shows</a></li>
+                <li class="menu-list-item"><a href="movies.html">Movies</a></li>
+                <li class="menu-list-item"><a href="collection.html">Collection</a></li>
+                <li class="menu-list-item"><a href="about.html">About Us</a></li>
+                <li class="menu-list-item"><a href="feedback.html">Feedback</a></li>
+  
+            </ul>
+      </div>
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu_btn" for="menu_toggle">
+          <span></span>
+        </label>
+    
+        <ul class="menu__box">
+              <li class="menu__item"><a href="categories.html">Categories</a></li>
+              <li class="menu__item"><a href="shows.html">Tv Shows</a></li>
+              <li class="menu__item"><a href="movies.html">Movies</a></li>
+              <li class="menu__item"><a href="collection.html">Collection</a></li>
+              <li class="menu__item"><a href="about.html">About Us</a></li>
+              <li class="menu__item"><a href="feedback.html">Feedback</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="feedback-form">
+        <h2>Feedback Form</h2>
+        <form>
+          <div class="form-group">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required>
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label>Age Group: </label>
+            <label><input type="radio" name="age-group" value="16-26">  16-26</label>
+            <label><input type="radio" name="age-group" value="27-37">  27-37</label>
+            <label><input type="radio" name="age-group" value="38-48">  38-48</label>
+          </div>
+          <div class="form-group">
+            <label>Gender:</label>
+            <label><input type="radio" name="gender" value="male">  Male</label>
+            <label><input type="radio" name="gender" value="female">  Female</label>
+            <label><input type="radio" name="gender" value="other">  Other</label>
+          </div>
+          <div class="form-group">
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment" rows="4" required></textarea>
+          </div>
+          <div class="form-group">
+            <label for="services">How was our services:</label>
+            <div class="emoji-ratings">
+              <input type="radio" name="services" value="excellent">😄
+              <input type="radio" name="services" value="good">😊
+              <input type="radio" name="services" value="average">😐
+              <input type="radio" name="services" value="poor">😞
+              <input type="radio" name="services" value="terrible">😡
+            </div>
+          </div>
+          <div class="form-group">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+
+<footer>
+    <div class="icons-section">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-pinterest"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-reddit"></i></a>
+        </div>
+      </div>
+      <div class="footer-container">  
+        <div class="footer-section">
+          <h3>About Us</h3>
+          <p>Warner Bros. is an American entertainment company with
+            a rich history. Warner Bros. was established on April 4, 1923,
+            by four brothers: Albert Warner, Harry Warner, Sam Warner, and Jack L.</p>
+        </div>
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul class="quick-links">
+              <li><a href="about.html">About</a></li>
+              <li><a href="shows.html">Shows</a></li>
+              <li><a href="movies.html">Movies</a></li>
+              <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+          </div>
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <p>Email: pearlolorato05@gmail.com</p>
+          <p>Phone: +26778180407</p>
+        </div>
+      </div>
+  <div class="copyright-section">
+    <h3>&copy; 2024 Warner Bros. All rights reserved.</h3>
+  </div>
+</footer>
+
+</body>
+</html>
