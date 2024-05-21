@@ -67,7 +67,7 @@
 
   ul li a {
     text-decoration: none;
-    color: black;
+    color: blue;
   }
 
   
@@ -101,7 +101,7 @@
   
   .categories-list{
     margin-bottom: 5px;
-    background-color: white;
+    background-color: green;
     padding: 15px 25px 15px 25px;
     box-sizing: border-box;
     font-size: 12px;
@@ -246,7 +246,7 @@
   }
 
   .featured-button {
-    background-color: #4dbf00;
+    background-color: black;
     color: white;
     padding: 10px 20px;
     margin-top: 20 em;
@@ -262,7 +262,7 @@
   .sidebar {
     width: 50px;
     height: 100%;
-    background-color: black;
+    background-color: Yellow;
     position: fixed;
     top: 0;
     display: flex;
@@ -272,7 +272,7 @@
   }
   
   .left-menu-icon {
-    color: white;
+    color: pink;
     font-size: 20px;
     margin-bottom: 40px;
   }
@@ -447,11 +447,11 @@
   }
   
   .toggle.active{
-      background-color: black;
+      background-color: purple;
   }
   
   .toggle-ball.active{
-      background-color: white;
+      background-color: violet;
       transform: translateX(-20px);
   }
 
