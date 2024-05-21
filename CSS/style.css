@@ -604,38 +604,6 @@
     transition: 1s all ease-in-out;
   }
 
-  
-  .video-container {
-    position: relative;
-    width: 100%;
-    max-width: 800px;
-  }
-  
-  video {
-    width: 100%;
-    height: auto;
-  }
-  
-  video::-webkit-media-controls {
-    /* CSS rules for Webkit-based browsers (Chrome, Safari) */
-    display: none !important;
-  }
-  
-  video::-webkit-media-controls-enclosure {
-    /* CSS rules for Webkit-based browsers (Chrome, Safari) */
-    display: none !important;
-  }
-  
-  video::-webkit-media-controls-panel {
-    /* CSS rules for Webkit-based browsers (Chrome, Safari) */
-    display: none !important;
-  }
-  
-  video::-webkit-media-controls-play-button {
-    /* CSS rules for Webkit-based browsers (Chrome, Safari) */
-    display: none !important;
-  }
-
   .feedback-form {
     max-width: 500px;
     margin: 0 auto;
@@ -663,9 +631,6 @@
     padding: 5px;
   }
   
-
-
-  @media only screen and (max-width: 940px){
 
     .quick-links {
       display: table-row-group;
