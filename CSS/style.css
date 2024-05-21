@@ -42,9 +42,9 @@
   
   .menu-container {
     display: inline-flex;
-    color: white;
+    color: Green;
     top: -38%;
-    position: relative;
+    position: fixed;
     left: 13px;
   }
   
