@@ -37,7 +37,7 @@
   }
 
   .logo img {
-    width: 6%;
+    width: 5%;
   }
   
   .menu-container {
@@ -78,7 +78,7 @@
 
   .menu-list-item:hover {
     font-weight: bold;
-    background-color:#007ac7;
+    background-color:#007ac1;
   }
 
  /* .dropdown-menu {
