@@ -10,8 +10,8 @@
   .navbar {
     width: 100%;
     height: 180px;
-    background-color:black ;
-    position: sticky;
+    background-color:blue ;
+    position: absolute;
     z-index: 1;
     top: 0;
   }
@@ -42,9 +42,9 @@
   
   .menu-container {
     display: inline-flex;
-    color: Green;
+    color: white;
     top: -38%;
-    position: fixed;
+    position: relative;
     left: 13px;
   }
   
