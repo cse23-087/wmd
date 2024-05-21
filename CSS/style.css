@@ -55,7 +55,7 @@
   
   .menu-list-item {
     margin-right: 45px;
-    background-color: blue;
+    background-color: white;
     padding: 10px 50px;
     color: black;
     font-family: "Sen", sans-serif;
@@ -663,161 +663,7 @@
     padding: 5px;
   }
   
-  .emoji-ratings input[type="radio"] {
-    display: none;
-  }
-  
-  .emoji-ratings input[type="radio"] + * {
-    cursor: pointer;
-  }
-  
-  .emoji-ratings input[type="radio"]:checked + * {
-    font-weight: bold;
-  }
 
-  .audio-player {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 300px;
-    height: 50px;
-    background-color: #f2f2f2;
-    border-radius: 5px;
-    padding: 10px;
-    box-sizing: border-box;
-    left: 326px;
-    position: absolute;
-  }
-
-  .play-button,
-  .pause-button {
-    width: 30px;
-    height: 30px;
-    background-color: #333;
-    border-radius: 50%;
-    cursor: pointer;
-    margin-right: 10px;
-  }
-
-  .play-button::before,
-  .pause-button::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 0;
-    height: 0;
-    border-style: solid;
-  }
-
-  .play-button::before {
-    border-width: 8px 0 8px 12px;
-    border-color: transparent transparent transparent white;
-  }
-
-  .pause-button::before {
-    width: 4px;
-    height: 12px;
-    background-color: white;
-  }
-
-  .song-container {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-
-  .thumbnail {
-    width: 80px;
-    height: 80px;
-    background-color: #ddd;
-    border-radius: 5px;
-    margin-right: 10px;
-  }
-
-  .song-details {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .song-title {
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: #007dc9;
-  }
-
-  .artist-name,
-  .release-year {
-    font-size: 12px;
-    color: #888;
-  }
-
-  audio {
-    width: 100%;
-  }
-
-  .music{
-    padding-top: 10px;
-  }
-
-  .about-us {
-    padding: 20px 50px;
-    color: #fff;
-  }
-
-  .about-us h3 {
-    padding-bottom: 10px;
-  }
-
-  .about-us  p{
-    font-size: 16px;
-  }
-
-  .about-us img {
-   width: 100%;
-   height: 450px;
-   object-fit: cover;
-   padding-top: 20px;
-  }
-
-  .team-container {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 20px;
-  }
-
-  .team-title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-
-  .team-member {
-    display: inline-block;
-    width: 200px;
-    margin: 10px;
-  }
-
-  .team-member img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-
-  .team-member-name {
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 10px;
-  }
-
-  .team-member-position {
-    font-size: 14px;
-    color: #888;
-    margin-top: 5px;
-  }
 
   @media only screen and (max-width: 940px){
 
@@ -896,7 +742,7 @@
     margin: 0;
     padding: 80px 0;
     list-style: none;
-    background-color: #ECEFF1;
+    background-color: Black;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
     transition-duration: .25s;
   }
