@@ -623,7 +623,7 @@
   .form-group textarea {
     width: 100%;
     padding: 5px;
-    color :#fff;
+    color : #fff;
   }
   
   
@@ -636,6 +636,7 @@
 
   .about-us h3 {
     padding-bottom: 10px;
+    color: #fff;
   }
 
   .about-us  p{
