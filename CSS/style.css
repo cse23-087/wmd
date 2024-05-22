@@ -605,6 +605,7 @@
   
   .feedback-form h2 {
     text-align: center;
+    color : #fff;
   }
   
   .form-group {
@@ -614,6 +615,7 @@
   .form-group label {
     display: contents;
     margin-bottom: 5px;
+    color : #fff;
   }
   
   .form-group input[type="text"],
@@ -621,6 +623,7 @@
   .form-group textarea {
     width: 100%;
     padding: 5px;
+    color :#fff;
   }
   
   
@@ -637,6 +640,8 @@
 
   .about-us  p{
     font-size: 16px;
+    color : #ffff;
+    
   }
 
   .about-us img {
