@@ -10,7 +10,7 @@
   .navbar {
     width: 100%;
     height: 180px;
-    background-color:white ;
+    background-color:black ;
     position: sticky;
     z-index: 1;
     top: 0;
@@ -21,7 +21,7 @@
     display: flex;
     padding: 0 50px;
     height: 100%;
-    color: black;
+    color: white;
     font-family: "Sen", sans-serif;
     top: 10%;
   }
@@ -31,18 +31,18 @@
   }
   
   .logo a {
-    font-size: 20px;
+    font-size: 15px;
     color: #4dbf00;
     text-decoration: none;
   }
 
   .logo img {
-    width: 6%;
+    width: 4%;
   }
   
   .menu-container {
     display: inline-flex;
-    color: white;
+    color: blue;
     top: -38%;
     position: relative;
     left: 13px;
