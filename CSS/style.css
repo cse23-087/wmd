@@ -594,9 +594,9 @@
     position: absolute;
     transition: 1s all ease-in-out;
  
- 
-
-  .feedback-form {
+    
+      
+    .feedback-form {
     max-width: 500px;
     margin: 0 auto;
     padding: 20px 30px 20px 20px;
@@ -628,7 +628,7 @@
 
   .about-us {
     padding: 20px 50px;
-    color: #fff;
+    background: #fff;
   }
 
   .about-us h3 {
