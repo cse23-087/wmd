@@ -30,11 +30,7 @@
     flex: 1;
   }
   
-  .logo a {
-    font-size: 15px;
-    color: blue;
-    text-decoration: none;
-  }
+
 
   .logo img {
     width: 4%;
